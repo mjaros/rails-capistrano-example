@@ -1,4 +1,7 @@
 RailsCapistranoExample::Application.routes.draw do
+  root to: "products#index"
+  resources :products
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 

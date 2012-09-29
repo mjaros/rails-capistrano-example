@@ -1,3 +1,5 @@
+require 'bundler/capistrano'
+
 load 'config/deployment/base'
 load 'config/deployment/nginx'
 load 'config/deployment/unicorn'
